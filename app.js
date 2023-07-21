@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   // console.log("Here is File Location :" + __filename);
   // console.log("Here is Directory Location :" + __dirname);
   // res.sendFile(__dirname + "/cv.html") 
-  res.sendFile(path.join(__filename,'..', 'cv.html')) 
+  res.sendFile(path.join(__filename,'..', 'cvForm.html')) 
 })
 
 app.post('/',(req, res) => {
